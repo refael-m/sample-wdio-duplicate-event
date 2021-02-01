@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio wdio.conf.js"
+    "test": "npx wdio wdio.conf.js",
+    "test:pptr": "node ./scripts/puppeteerTest.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "@wdio/spec-reporter": "^6.11.0",
     "@wdio/sync": "^6.11.0",
     "chromedriver": "^88.0.0",
+    "puppeteer": "^5.5.0",
     "wdio-chromedriver-service": "^6.0.4"
   }
 }
